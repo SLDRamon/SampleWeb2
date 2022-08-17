@@ -1,0 +1,271 @@
+html, body{
+    /*width: 100%;
+    height: 100%;
+    overflow-x: hidden;*/
+    margin: 0;
+    padding: 0;
+    background-color: #e7cc8a;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: black;
+    padding: 2rem;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-bar{
+    background-color: white;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    display: inline-block;
+    height: 3rem;
+    position:fixed;
+    top: 4rem;
+    right: 0;
+    width: 400px;
+    text-align: end;
+}
+
+.menu-bar-option{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 1rem;
+    transform: scale(0.7); 
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.cart{
+    image-rendering: smooth;
+    bottom: 0.2rem;
+}
+
+.promotion{
+    text-align: center;
+    padding: 300px 0px 0px 0px;
+    background-image: url('./bread-wallpaper.png');
+    color: white;
+    margin-top: 0px;
+}
+
+.ad{
+    text-align: center;
+    background-color:#0d0d0d ;
+    padding: 50px;
+    color: white;
+}
+
+.checkoutnowbutton{
+    position: fixed;
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+    text-align: center;
+    right: 0;
+    bottom: 200px;
+    background-color: #ffb423;
+    width: 12.5%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.checkoutnow{
+    display: inline;
+}
+
+.food-selection{
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 3rem;
+    width: 17%;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    bottom: 25px;
+    padding-bottom: 65px;
+    right: 30px;
+    /*bottom: -10px;
+    padding-bottom: 60px;
+    right: 390px;*/
+}
+
+.choices{ 
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: #0d0d0d;
+    border-radius: 50px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    /*margin-left: 200px;
+    height: 690px;
+    width: 750px;
+    bottom: 690px;*/
+}
+
+.choice1{
+    display: inline-block;
+    color: white;
+    transform: scale(0.8);
+}
+.choice2{
+    display: inline-block;
+    margin: 0 1rem 0 1rem;
+    color: white;
+    transform: scale(0.8);
+}
+.choice3{
+    display: inline-block;
+    margin: 0 1rem 0 1rem;
+    color: white;
+    transform: scale(0.8);
+}
+
+.circleavatar{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+    width: 75%;
+}
+
+.btn {
+    background: #f4402d;
+    /*border-radius: 5rem;*/
+    color: #0d0d0d;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 20px;
+
+  }
+  .btnchk {
+    background: #f4402d;
+    border-radius: 5rem;
+    color: #0d0d0d;
+    font-size: 18px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 40px;
+  }
+    .checkout-menu{ 
+        display: inline-block;
+        width: 35%;
+        position: relative;
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 3rem;
+        margin-left: 25rem;
+        margin-bottom: 0%;
+        margin-top: 15%;
+    
+}
+
+  .bottom{
+    color: white;
+    padding: 10px;
+    background-color: #181818;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  .contact{
+    display: inline-block;
+    transform: scale(0.85);
+  }
+
+  /*.bottom-brand{
+    display: inline-block;
+    left: 20rem;
+    position: relative;
+    margin: 0;
+  }*/
+  .checkoutbg{
+    background-image: url('./blurred-bread-wallpaper.png');
+    padding: 0rem 0 3rem 0;
+  }
+
+  .price1{
+      display: inline-block;
+
+  }
+
+  .cinnamon-rolls{
+    border-image:  url('./cinnamon-rolls.png');
+    top: 12rem;
+    left: 2.5rem;
+    position: absolute;
+  }
+  
+  .blogtitle1{
+      text-align: center;
+      position: relative;
+      margin-top: 15rem;
+      margin-left: 32rem;
+  }
+
+  .Description{
+      position: relative;
+  }
+
+  .aboutusbg{
+      background-image: url('./pastry-wallpaper.png');
+      text-align: center;
+      position: relative;
+      color: white;
+      padding: 18rem 0 5rem 0;
+  }
+
+  .facebook{
+    width: 80px;
+    position: relative;
+    top: 28.5rem;
+  }
+ /* .sentence{
+    margin: 0;  
+    text-align: center;
+    position: relative;
+    color: white;
+  }*/
+
